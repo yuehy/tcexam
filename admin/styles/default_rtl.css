@@ -38,7 +38,7 @@ a:hover {
 /* delete link ------------ */
 a.deletebutton:link, a.deletebutton:visited {
 	border: 1px solid #000000;
-	color: #003399;
+	color: #006666;
 	font-size: 75%;
 	padding: 0px 3px 0px 3px;
 	text-decoration: none;
@@ -231,7 +231,7 @@ div.float {
 
 /* header (logo + timer) ------------ */
 div.header {
-	background-color: #003399;
+	background-color: #006666;
 	border: 0px none;
 	height: 40px;
 	margin: 0px 0px 0px 0px;
@@ -241,7 +241,7 @@ div.header {
 
 /* header logo ------------ */
 div.header div.left {
-	background-color: #003399;
+	background-color: #006666;
 	background-image: url(../../images/logo_tcexam_118x25.png);
 	background-position: top;
 	background-repeat: no-repeat;
@@ -256,7 +256,7 @@ div.header div.left {
 
 /* header banner ------------ */
 div.header div.right {
-	background-color: #003399;
+	background-color: #006666;
 	border: 0px none;
 	float: left;
 	height: 25px;
@@ -267,7 +267,7 @@ div.header div.right {
 }
 
 div.header div.right input{
-	background-color: #003399;
+	background-color: #006666;
 	border: 0px none;
 	color: #FFFFFF;
 	font-size: 100%;
@@ -333,7 +333,7 @@ div.popupcontainer {
 }
 
 div.popuptitle {
-	color: #003399;
+	color: #006666;
 	font-size: 130%;
 	font-weight: bold;
 	margin: 0px 10px 0px 10px;
@@ -463,7 +463,7 @@ div.contentbox {
 
 /* TITLE ------------------------------- */
 div.title {
-	color: #003399;
+	color: #006666;
 	font-size: 140%;
 	font-weight: bold;
 	margin: 0px 10px 0px 10px;
@@ -473,7 +473,7 @@ div.title {
 
 /* USER BAR  ------------------- */
 div.userbar {
-	background-color: #003399;
+	background-color: #006666;
 	clear: both;
 	color: #FFFFFF;
 	font-size: 95%;
@@ -526,7 +526,7 @@ fieldset.noborder {
 }
 
 h1 {
-	color: #003399;
+	color: #006666;
 	font-size: 140%;
 	font-weight: bold;
 	margin: 0px 10px 0px 10px;
@@ -535,7 +535,7 @@ h1 {
 }
 
 h2 {
-	color: #003399;
+	color: #006666;
 	font-size: 120%;
 	font-weight: bold;
 	margin: 0px 10px 0px 10px;
@@ -568,7 +568,7 @@ label {
 }
 
 label.timerlabel {
-	color: #003399;
+	color: #006666;
 }
 
 li.tcecode{
@@ -746,7 +746,7 @@ div.scrollmenu {
 	font-size: 75%;
 	font-weight: bold;
 	text-decoration: none;
-	background: #003399;
+	background: #006666;
 	border: 0;
 }
 
@@ -774,7 +774,7 @@ ul.menu {
 
 ul.menu li > ul {
 	display: none;
-	background-color: #003399;
+	background-color: #006666;
 }
 
 ul.menu li a {
@@ -809,17 +809,17 @@ ul.menu li:hover > ul, ul.menu *:focus + ul {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	background-color: #003399;
+	background-color: #006666;
 	z-index: 1;
 }
 
 ul.menu li:hover, ul.menu li.CSStoHighlight {
-	background-color: #003399;
+	background-color: #006666;
 	color: #FFCC00;
 }
 
 ul.menu ul li {
-	background-color: #003399;
+	background-color: #006666;
 	float: right;
 	list-style-type: none;
 	margin-bottom: 2px;
@@ -836,40 +836,40 @@ ul.menu ul li:hover > ul, ul.menu ul *:focus + ul {
 	top: 0px;
 	margin: 0;
 	padding: 0;
-	background-color: #003399;	
+	background-color: #006666;	
 	z-index: 1;
 }
 
 ul.menu li a.active {
-	color: #003399;
+	color: #006666;
 	display: block;
 	text-decoration: underline;
 	padding: 0px 6px 0 6px;
-	border-top: 1px solid #003399;
-	border-left: 1px solid #003399;
-	border-right: 1px solid #003399;
+	border-top: 1px solid #006666;
+	border-left: 1px solid #006666;
+	border-right: 1px solid #006666;
 	border-bottom: 1px solid white;
 	background-color: white;
 }
 
 ul.menu li span.active {
-	color: #003399;
+	color: #006666;
 	display: block;
 	text-decoration: none;
 	padding: 0px 6px 0 6px;
-	border-top: 1px solid #003399;
-	border-left: 1px solid #003399;
-	border-right: 1px solid #003399;
+	border-top: 1px solid #006666;
+	border-left: 1px solid #006666;
+	border-right: 1px solid #006666;
 	border-bottom: 1px solid white;
 	background-color: white;
 }
 
 ul.menu ul li *.active {
-	color: #003399;
+	color: #006666;
 	display: block;
 	text-decoration: none;
 	padding: 0px 6px 0 6px;
-	border: 1px solid #003399;
+	border: 1px solid #006666;
 	background-color: white;
 }
 
