@@ -128,20 +128,21 @@ b.tcecode{
 
 blockquote.tcecode{
 }
+html {
+	height: 100%;
+	width: 100%;
+}
 
 body {
-	background-color: #FFFFFF;
+	/*background-color: #FFFFFF;*/
+	background-image: url(../../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
 	color: #000000;
 	font-family: Arial,FreeSans,sans-serif;
 	font-size: 100%;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 /* BODY (menu + main) ------------ */
@@ -164,10 +165,11 @@ div.confirmbox {
 /* DIV container:
 contains form box and help box */
 div.container {
-	margin: 0px 0px 0px 0px;
-	padding: 5px 5px 5px 5px;
-	width: 98%;
+	margin: 0;
+	padding: 5px;
+	width: 100%;
 }
+
 
 div.content {
 	float: left;
@@ -263,7 +265,7 @@ div.minibutton {
 }
 
 div.minibutton span.copyright {
-	background: #FFFFFF;
+	background-color: rgba(255,255,255,.7);
 	color: #000000;
 	font-family: Arial,FreeSans,sans-serif;
 	font-size: 70%;
@@ -316,6 +318,7 @@ div.row {
 	clear: both;
 	padding: 1px 1px 1px 1px;
 	text-align: center;
+	margin-left: 15%;
 }
 
 div.row span.formw {
@@ -370,14 +373,18 @@ div.tcecodepre{
 /* FORM BOX --------------------- */
 div.tceformbox {
 	overflow: hidden;
+	opacity: 0.7;
 	background-color: #F6F6F6;
-	border: 1px solid #808080;
-	margin: 0px 0px 0px 0px;
-	padding: 5px 5px 5px 5px;
+	border: 1px dotted #808080;
+	margin: 0;
+	padding: 12px;
 	text-align: center;
 	width: 100%;
 }
-
+#form_login span {
+	color: #000;
+	line-height: 25px;
+}
 /* TITLE ------------------------------- */
 div.title {
 	color: #006666;
@@ -423,6 +430,10 @@ div.userbar a.loginbutton:link, a.loginbutton:visited {
 	text-decoration: none;
 }
 
+#login {
+	margin-left: -40%;
+}
+
 div.userbar a.loginbutton:hover, div.userbar a.loginbutton:focus {
 	background-color: #00FF00;
 	color: #000000;
@@ -432,8 +443,8 @@ div.warning {
 	background-color: #99FF99;
 	font-size: 95%;
 	font-weight: bold;
-	margin: 0px 0px 0px 0px;
-	padding: 3px 3px 3px 3px;
+	margin: 0;
+	padding: 3px;
 	width: 100%;
 }
 
@@ -490,8 +501,8 @@ ol.answer {
 }
 
 ol.answer li {
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
+	margin: 0;
+	padding: 0;
 }
 
 ol.answer_inline {
@@ -501,8 +512,8 @@ ol.answer_inline {
 
 ol.answer_inline li {
 	display: inline;
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
+	margin: 0;
+	padding: 0;
 }
 
 /* ----- */
@@ -561,8 +572,8 @@ sup.tcecode{
 table.userselect {
 	background-color: #F6F6F6;
 	border: 1px solid #808080;
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
+	margin: 0;
+	padding: 0;
 	text-align: center;
 	width: 100%;
 }
@@ -593,15 +604,15 @@ ul.answer {
 }
 
 ul.answer li {
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
+	margin: 0;
+	padding: 0;
 }
 
 ul.credits {
 	color: #333333;
 	font-size: 95%;
-	margin: 5px 5px 5px 5px;
-	padding: 5px 5px 5px 5px;
+	margin: 5px;
+	padding: 5px;
 	text-align: left;
 }
 
@@ -619,7 +630,7 @@ ul.question {
 
 ul.question li {
 	margin: 10px 0px 10px 0px;
-	padding: 0px 0px 0px 0px;
+	padding: 0;
 }
 
 ul.tcecode{
@@ -632,8 +643,8 @@ ul.tcecode{
 .tcecontentbox {
 	background-color: #F6F6F6;
 	border: 1px solid #808080;
-	margin: 0px 0px 0px 0px;
-	padding: 5px 5px 5px 5px;
+	margin: 0;
+	padding: 5px;
 	text-align: left;
 	width: 100%;
 }
@@ -644,7 +655,7 @@ a.xmlbutton:link, a.xmlbutton:visited {
 	border-color: #FFFFFF #696969 #696969 #FFFFFF;
 	color: #000000;
 	font-size: 95%;
-	margin: 0px 0px 0px 0px;
+	margin: 0;
 	padding: 2px 4px 2px 4px;
 	text-decoration: none;
 }
@@ -900,7 +911,7 @@ a.buttongreen:link, a.buttongreen:visited {
 	border-color: #FFFFFF #696969 #696969 #FFFFFF;
 	color: #000000;
 	font-size: 95%;
-	margin: 0px 0px 0px 0px;
+	margin: 0;
 	padding: 2px 4px 2px 4px;
 	text-decoration: none;
 }
@@ -915,7 +926,7 @@ a.buttonred:link, a.buttonred:visited {
 	border-color: #FFFFFF #696969 #696969 #FFFFFF;
 	color: #000000;
 	font-size: 95%;
-	margin: 0px 0px 0px 0px;
+	margin: 0;
 	padding: 2px 4px 2px 4px;
 	text-decoration: none;
 }
@@ -930,7 +941,7 @@ a.buttonblue:link, a.buttonblue:visited {
 	border-color: #FFFFFF #696969 #696969 #FFFFFF;
 	color: #000000;
 	font-size: 95%;
-	margin: 0px 0px 0px 0px;
+	margin: 0;
 	padding: 2px 4px 2px 4px;
 	text-decoration: none;
 }
@@ -985,5 +996,17 @@ span.accesskey {
 	background-color:#eeeeee !important;
 	color:#006000 !important;
 	text-align:right !important;
+}
+/* Writtern By Anapopo */
+#footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+}
+
+.body h1{
+	font-size: 3rem;
 }
 

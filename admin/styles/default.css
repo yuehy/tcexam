@@ -292,7 +292,7 @@ div.minibutton {
 }
 
 div.minibutton span.copyright {
-	background: #FFFFFF;
+	background: rgba(255,255,255,0.7);
 	color: #000000;
 	font-family: Arial,FreeSans,sans-serif;
 	font-size: 70%;
@@ -958,3 +958,13 @@ span.accesskey {
 	color:#006000 !important;
 	text-align:right !important;
 }
+
+/* Writtern By Anapopo */
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+}
+

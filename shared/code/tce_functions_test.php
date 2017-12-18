@@ -477,6 +477,8 @@ function F_printTestInfo($test_id, $showip = false)
             $str .= '<h1>'.htmlspecialchars($m['test_name'], ENT_NOQUOTES, $l['a_meta_charset']).'</h1>'.K_NEWLINE;
             $str .= '<div class="tcecontentbox">'.F_decode_tcecode($m['test_description']).'<br /><br /></div>'.K_NEWLINE;
             $str .= '<div class="tceformbox">'.K_NEWLINE;
+			//$str .= '<h1>'.htmlspecialchars($m['test_name'], ENT_NOQUOTES, $l['a_meta_charset']).'</h1>'.K_NEWLINE;
+
             $str .= F_twoColRow($l['w_time_begin'], $l['h_time_begin'], $m['test_begin_time']);
             $str .= F_twoColRow($l['w_time_end'], $l['h_time_end'], $m['test_end_time']);
             $str .= F_twoColRow($l['w_test_time'], $l['h_test_time'], $m['test_duration_time'].' '.$l['w_minutes']);
